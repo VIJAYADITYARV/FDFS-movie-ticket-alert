@@ -1,3 +1,8 @@
+if (!process.env.BOT_TOKEN || !process.env.CHAT_ID) {
+  console.error("❌ Missing environment variables");
+  process.exit(1);
+}
+
 const { chromium } = require("playwright");
 const axios = require("axios");
 
