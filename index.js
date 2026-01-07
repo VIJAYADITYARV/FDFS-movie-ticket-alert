@@ -1,8 +1,3 @@
-if (!process.env.BOT_TOKEN || !process.env.CHAT_ID) {
-  console.error("❌ Missing environment variables");
-  process.exit(1);
-}
-
 const { chromium } = require("playwright");
 const axios = require("axios");
 
@@ -10,8 +5,8 @@ const axios = require("axios");
 const MOVIE_URL =
   "https://in.bookmyshow.com/movies/trichy/jana-nayagan/ET00430817";
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHAT_ID = Number(process.env.CHAT_ID);
+const BOT_TOKEN = "8518446971:AAH_3zvOuuHLZJjkHqV2oRIzTa6CAjhQ8As";
+const CHAT_ID = 6446296940;
 
 
 const CHECK_INTERVAL = 5000; // 5 seconds
@@ -28,7 +23,7 @@ async function sendTelegramAlert() {
 
 (async () => {
   const browser = await chromium.launch({
-    headless: false, // IMPORTANT: true for deployment
+    headless: true, // IMPORTANT: true for deployment
   });
 
   let previousTicketsOpen = false;
