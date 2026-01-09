@@ -1,11 +1,11 @@
-# 🎬 Movie Ticket Instant Alert
+# 🎬 Movie Ticket Instant Alert - FDFS
 
 ## Why This Exists
 
 I built this because I personally faced this problem.
 
-While trying to book tickets for a Tamil movie, the tickets opened suddenly and got sold out very fast.  
-BookMyShow notifications were delayed, and manually refreshing the page was frustrating.
+While trying to book tickets for a movie, the tickets opened suddenly and got sold out very fast.  
+BookMyShow notifications were delayed, and manually looking into or refreshing the page was frustrating.
 
 So, just for fun and out of necessity, I built this small tool in about an hour to solve **my own problem**.
 
