@@ -67,6 +67,7 @@ This makes it useful for:
 
 ---
 
+
 ## Future Scope
 
 This project was built quickly for personal use, but it can be extended easily in the future:
