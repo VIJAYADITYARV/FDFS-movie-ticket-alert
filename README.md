@@ -4,7 +4,7 @@
 
 I built this because I personally faced this problem.
 
-While trying to book tickets for a Tamil movie (**Jananayagan**), the tickets opened suddenly and got sold out very fast.  
+While trying to book tickets for a Tamil movie, the tickets opened suddenly and got sold out very fast.  
 BookMyShow notifications were delayed, and manually refreshing the page was frustrating.
 
 So, just for fun and out of necessity, I built this small tool in about an hour to solve **my own problem**.
