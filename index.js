@@ -3,10 +3,10 @@ const axios = require("axios");
 
 // ========= CONFIG =========
 const MOVIE_URL =
-  "https://in.bookmyshow.com/movies/trichy/jana-nayagan/ET00430817";
+  "https://in.bookmyshow.com/movies/trichy/jana-nayagan/ET00430817"; // enter your required movie URL, this is an example 
 
-const BOT_TOKEN = "8518446971:AAH_3zvOuuHLZJjkHqV2oRIzTa6CAjhQ8As";
-const CHAT_ID = 6446296940;
+const BOT_TOKEN = "8518446971:AAH_3zvOuuHLZJjkHqV2oRIzTa6CAjhQ8As"; // bot token from telegram
+const CHAT_ID = 6446296940; // chat id 
 
 
 const CHECK_INTERVAL = 5000; // 5 seconds
