@@ -61,7 +61,7 @@ async function sendTelegramAlert() {
         detected
       );
 
-      // 🚨 ALERT ONLY ON STATE CHANGE
+      //  ALERT ONLY ON STATE CHANGE
       if (!previousTicketsOpen && detected) {
         console.log("🚨 TICKETS JUST OPENED — SENDING ALERT");
         await sendTelegramAlert();
